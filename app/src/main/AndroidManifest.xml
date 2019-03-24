@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".multisuspensionbar.MultiSuspensionBarActivity"></activity>
+        <activity android:name=".rvadimage.RvAdImageActivity"></activity>
+        <activity android:name=".multisuspensionbar.MultiSuspensionBarActivity" />
         <activity android:name=".suspensionbar.SuspensionBarActivity" />
         <activity android:name=".base.FundamentalActivity" />
         <activity android:name=".MainActivity">

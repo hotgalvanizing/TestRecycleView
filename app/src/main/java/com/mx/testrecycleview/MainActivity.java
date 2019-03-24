@@ -13,6 +13,7 @@ import android.widget.ListView;
 
 import com.mx.testrecycleview.base.FundamentalActivity;
 import com.mx.testrecycleview.multisuspensionbar.MultiSuspensionBarActivity;
+import com.mx.testrecycleview.rvadimage.RvAdImageActivity;
 import com.mx.testrecycleview.suspensionbar.SuspensionBarActivity;
 
 public class MainActivity extends ListActivity {
@@ -55,7 +56,8 @@ public class MainActivity extends ListActivity {
             new DemoDetails("RecycleViewDemo", "", null),
             new DemoDetails("基本用法", "", FundamentalActivity.class),
             new DemoDetails("悬浮条实现", "", SuspensionBarActivity.class),
-            new DemoDetails("悬浮条实现2", "", MultiSuspensionBarActivity.class)
+            new DemoDetails("悬浮条实现2", "", MultiSuspensionBarActivity.class),
+            new DemoDetails("RecycleView创意广告", "", RvAdImageActivity.class)
 
     };
 
