@@ -1,16 +1,11 @@
 package com.mx.testrecycleview.rvadimage;
 
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.graphics.Canvas;
-import android.graphics.RectF;
-import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.AppCompatImageView;
+import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatImageView;
 import android.util.AttributeSet;
-import android.util.Log;
-import android.widget.ImageView;
 
 /**
  * Created by zhanghongyang01 on 17/11/23.
