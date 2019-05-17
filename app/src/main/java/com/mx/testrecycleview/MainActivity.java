@@ -57,7 +57,8 @@ public class MainActivity extends ListActivity {
             new DemoDetails("基本用法", "", FundamentalActivity.class),
             new DemoDetails("悬浮条实现", "", SuspensionBarActivity.class),
             new DemoDetails("悬浮条实现2", "", MultiSuspensionBarActivity.class),
-            new DemoDetails("RecycleView创意广告", "", RvAdImageActivity.class)
+            new DemoDetails("RecycleView创意广告", "", RvAdImageActivity.class),
+            new DemoDetails("Linkage-RecyclerView", "", RvAdImageActivity.class)
 
     };
 
