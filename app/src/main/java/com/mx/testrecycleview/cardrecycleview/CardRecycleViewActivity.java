@@ -14,6 +14,9 @@ import com.mx.testrecycleview.R;
 
 import java.util.Random;
 
+/**
+ * https://blog.csdn.net/qibin0506/article/details/52676670
+ */
 public class CardRecycleViewActivity extends AppCompatActivity {
 
     private static final int[] COLORS = {0xff00FFFF, 0xffDEB887, 0xff5F9EA0,
