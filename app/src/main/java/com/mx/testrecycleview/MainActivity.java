@@ -12,6 +12,7 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 
 import com.mx.testrecycleview.base.FundamentalActivity;
+import com.mx.testrecycleview.cardrecycleview.CardRecycleViewActivity;
 import com.mx.testrecycleview.linkagerecyclerView.LinkedageActivity;
 import com.mx.testrecycleview.multisuspensionbar.MultiSuspensionBarActivity;
 import com.mx.testrecycleview.rvadimage.RvAdImageActivity;
@@ -59,7 +60,8 @@ public class MainActivity extends ListActivity {
             new DemoDetails("悬浮条实现", "", SuspensionBarActivity.class),
             new DemoDetails("悬浮条实现2", "", MultiSuspensionBarActivity.class),
             new DemoDetails("RecycleView创意广告", "", RvAdImageActivity.class),
-            new DemoDetails("Linkage-RecyclerView", "", LinkedageActivity.class)
+            new DemoDetails("Linkage-RecyclerView", "", LinkedageActivity.class),
+            new DemoDetails("CardLayoutManager", "", CardRecycleViewActivity.class)
 
     };
 

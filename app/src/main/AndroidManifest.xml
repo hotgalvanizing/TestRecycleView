@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-
+        <activity android:name=".cardrecycleview.CardRecycleViewActivity"></activity>
         <activity android:name=".linkagerecyclerView.LinkedageActivity" />
         <activity android:name=".rvadimage.RvAdImageActivity" />
         <activity android:name=".multisuspensionbar.MultiSuspensionBarActivity" />
