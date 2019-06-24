@@ -47,13 +47,19 @@ public class CardLayoutManager extends RecyclerView.LayoutManager{
     @Override
     public void onLayoutChildren(RecyclerView.Recycler recycler, RecyclerView.State state) {
         if (getItemCount() <= 0 || state.isPreLayout()) { return;}
-
+        //detachAndScrapAttachedViews方法, 这个方法是RecyclerView.LayoutManager的,
+        // 它的作用是将界面上的所有item都detach掉, 并缓存在scrap中,以便下次直接拿出来显示.
         detachAndScrapAttachedViews(recycler);
+
+        //这里是因为在我们的这个效果中所有的item大小都是一样的,
+        // 所以我们只要获取第一个的大小, 就知道所有的item的大小了.
         View first = recycler.getViewForPosition(0);
         measureChildWithMargins(first, 0, 0);
+        //这个getDecoratedXXX的作用就是获取该view以及他的decoration的值,
+        // 大家都知道RecyclerView是可以设置decoration的
         int itemWidth = getDecoratedMeasuredWidth(first);
         int itemHeight = getDecoratedMeasuredHeight(first);
-
+        //这两句主要是来获取每一组中第一行和第二行中item的个数.
         int firstLineSize = mGroupSize / 2 + 1;
         int secondLineSize = firstLineSize + mGroupSize / 2;
         if (isGravityCenter && firstLineSize * itemWidth < getHorizontalSpace()) {
